@@ -1,0 +1,1 @@
+https://github.com/hiPupS/slozhno-sosredotochitsya-fd ссылка на репозиторий
