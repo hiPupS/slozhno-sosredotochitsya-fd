@@ -143,6 +143,10 @@
 
 @media (min-width: 1024px) {
   .header__title {
+    text-shadow: 4px 4px 0 var(--accent-color-title);
+  }
+
+  .header__title {
     line-height: 130px;
   }
 
@@ -214,14 +218,17 @@
 .what__title {
   max-width: clamp(236px, 468.5504px + -30.2799vw, 355px);
   margin-block-end: 20px;
+  color: var(--heading-color);
 }
 
 .how__title {
   margin-block: max(0px, calc(41px - 5.333vw)) 0px;
+  color: var(--heading-color);
 }
 
-h4.title-decor {
+.title-decor {
   font-weight: 400;
+  color: var(--heading-color);
 }
 
 @media (min-width: 768px) {
