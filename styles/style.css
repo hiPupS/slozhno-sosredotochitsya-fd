@@ -375,6 +375,7 @@
 
 @media (min-width: 768px) {
   .footer__title {
-    font-size: var(--logo-size_desktop);
+    text-shadow: 2px 2px p var(--accent-color-title);
   }
 }
+

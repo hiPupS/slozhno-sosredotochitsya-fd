@@ -27,7 +27,3 @@
     --accent-color-opasity: rgba(53, 52, 48, 0.4);
   }
 }
-
-  .footer__title {
-    text-shadow: 2px 2px 0 var(--accent-color-title);
-  }
