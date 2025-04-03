@@ -134,7 +134,7 @@
   .header__title {
     position: relative;
     margin-inline-start: -20px;
-    font-size: var(--logo-size_desktop);
+    font-size: var(--logo-size);
   }
   .header__subtitle {
     line-height: 23.4px;
@@ -226,9 +226,9 @@
   color: var(--heading-color);
 }
 
-.title-decor {
+.title-decor_thin {
   font-weight: 400;
-  color: var(--heading-color);
+  background-color: var(--accent-color-title);
 }
 
 @media (min-width: 768px) {
@@ -368,14 +368,10 @@
 .footer__title {
   justify-self: center;
   color: var(--text-color-accent);
-  font-size:  var(--logo-size_mobile);
+  font-size: var(--logo-size);
   line-height: 95.7px;
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
-@media (min-width: 768px) {
-  .footer__title {
-    text-shadow: 2px 2px p var(--accent-color-title);
-  }
-}
+
 

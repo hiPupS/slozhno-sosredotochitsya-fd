@@ -13,5 +13,11 @@
   --color-section-title: rgba(255, 0, 112, 1); 
   --accent-color-opasity: rgba(255, 0, 112, 0.4); 
   --logo-size_mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); 
-  --logo-size_desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
+  --logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); /*120px-157px*/
+}
+
+@media (width >= 768px) {
+  :root {
+    --logo-size: clamp(7.75rem, 0.5625rem + 14.4531vw, 12.8125rem); /*124px-161px8*/    
+  }
 }
